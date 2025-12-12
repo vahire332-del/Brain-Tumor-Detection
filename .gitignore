@@ -1,0 +1,49 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.env
+.venv/
+env/
+ENV/
+
+# IDEs
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Model files and checkpoints
+*.h5
+*.keras
+*.ckpt
+*.pb
+*.ckpt.index
+my_model_categorical/
+my_model.keras
+my_model_categorical.keras
+brain_tumor_model.h5
+BrainTumor10Epochs.h5
+
+# Dataset directories (do not commit large data)
+MRI IMAGES/
+MRI Scans/
+
+# Build / distribution
+dist/
+build/
+*.egg-info/
+
+# Logs
+*.log
+
+# Others
+*.pyc
